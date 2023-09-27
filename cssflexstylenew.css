@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    background-color: aqua;
+}
+.parent{
+    height: 200vh;
+    border: 20px solid black;
+    display: flex; 
+    flex-direction: row;
+     /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+     /* justify-content: center;  */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center;  */
+
+    /* flex-wrap: wrap;  */
+     align-content: flex-start;
+
+    /* flex-flow: row wrap;  */
+
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    order: 3;
+    align-self: flex-end;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* order: 2; */
+    /* align-self: flex-end; */
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* order: 4; */
+    /* align-self: flex-end; */
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    /* order: 1; */
+    /* /* align-self: flex-end;  */
+} 
+}

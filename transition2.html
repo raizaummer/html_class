@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       div{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            transition: transform 8s,width 6s;
+           
+       }
+       
+       .div{
+          
+            animation:alternate;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-delay: 1s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: 5;
+            position: relative; 
+
+
+
+       }
+       .div:hover{
+        transform: rotate(360deg);
+            width: 300px;
+       }
+       @keyframes move{
+            0%{
+                left: 0px ;top:0px;
+            }
+            /* 25%{left: 200px;top: 200px;}
+            50%{left: 300px;top: 300px;}
+            75%{left: 400px;top: 400px;} */
+            100%{
+                left: 500px;top: 500px;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+     
+   <div class="div"></div>
+
+    
+</body>
+</html>
+</head>
+
+    

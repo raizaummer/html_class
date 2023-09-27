@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #sec1{
+            height: 260px;
+            background-color: rgb(45, 45, 224);
+          
+     
+         }
+         #wel{
+           padding-left: 5%;
+           padding-right: 5%;
+          
+           
+         }
+         hr.solid {
+  border-top: 3px solid  black;
+}
+.box{
+    display: flex;
+    /* flex-direction: row; */
+    /* min-width: 150px;*/
+} 
+
+    </style>
+</head>
+<body>
+    <div id="sec1">
+        <img src="data:image/jpeg;base64,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" alt="" height="260" width="250" style="padding-left: 3%;float: left;">
+       
+   
+        <h1  style="color:white;">&nbsp;&nbsp;Salman Patel</h1>
+        <h3 style="color: aliceblue;">&nbsp;&nbsp;Software Engineer</h3>
+     
+      <div class="box">
+        <h5 id="wel" style="color: aliceblue;">Phone:091 656536576  <br>
+            Email:salman@gmail.com <br>
+            Linkedin:linkedln.com/in/salman <br>
+            Gitlab:gitlab.com/salman
+         </h5><h5 style="color: aliceblue;"> Address:Rajo garden, New Delhi 11088<br>
+        Date of Birth:21 January 1993<br>
+         Gender:Male  <br>
+       Nationality:Indian</h5><br>
+       </div>
+        
+    </div>
+    <p style="padding-left: 5%;padding-right: 5%;">
+        Software Engineer with 5+ years of experience and a proven track record of making significant, specific, and self-direction contributions to challenging and complex UX projects. Seeking a position to apply exceptional problem-solving and collaborative skills as part of a team.
+        Seeking a position to bring an outside-of-the-box approach and exceptional ability to identify problems and create effective solutions that keep projects on track and under budget.
+    </p>
+    <h2 id="wel">Education</h2>
+    <hr class="solid">
+    <div class="box">
+        
+        <h5 id="wel"><b>2011-2015</h5><h5> High School diploma  <br>
+            NK Bagrodia Public School,Rohini <br>CBSE :88% <br> <br>
+        Activities:
+            <li>
+                Member,Maths club,Class 12
+            </li>
+            <li>Member,IT club,Class 12</li>
+
+         </h5>
+         </div>
+         
+         <div class="box">
+         <h5 id="wel">2015-2017</h5><h5>Bachelor of Computer Applications <br>
+        Sharda university Greater Noida,Delhi NCR India <br>
+    CGPA:8.3 <br><br>
+     Specialization:
+    <li>Designing and Implementing System Software</li></h5>
+</div>
+    </div>
+    <h2 id="wel">Experience</h2>
+    <hr class="solid">
+    <div class="box">
+        
+        <h5 id="wel">June 2016-Present</h5><h5> Freelance Software Engineer<br>
+            ITSang group, New Delhi <br>
+            <li>Document and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments and clear code</li>
+            <li>Improve operations by conducting systems analysis; recommending changes in policies and procedures</li>
+             <li>Prepare and install solutions by determining and designing system specifications, standards and programming</li>
+           
+         </h5>
+         </div>
+        </div>
+        <h2 id="wel">Skills</h2>
+        <hr class="solid">
+        <div class="box">
+            
+            <h5 id="wel">
+                <li>Visual Basic</li>
+                <li>C,C++</li>
+                <LI>Java,HTML</LI>
+                <LI>MS Access</LI>
+            </h5>
+             </div>
+    
+</body>
+</html> 

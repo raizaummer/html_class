@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+             background-color: brown;
+        }
+        li{
+          float: left;
+        }
+        li a {
+  display: block;
+  padding: 8px 16px;
+  color: bisque;
+  text-decoration: double;
+  text-align: center;
+}
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: bisque;
+} 
+/* li a:hover:not(.active){
+  background-color: rebeccapurple;
+} */
+.active{
+  background-color: #04AA6D;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="active"><a href="home.asp">Home</a></li>
+        <li class="active"><a href="news.asp">News</a></li>
+        <li class="active"><a href="contact.asp">Contact</a></li>
+        <li class="active"><a href="about.asp">About</a></li>
+      </ul> 
+</body>
+</html>
